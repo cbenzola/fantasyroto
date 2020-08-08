@@ -1,0 +1,3 @@
+- Website I developed using HTML, CSS, PHP, Javascript/jQuery and mySQL. 
+- Used to research baseball statistics and help build a daily fantasy baseball lineup
+- Created the lineup builder optimizer with SQL stored procedure 
