@@ -1,0 +1,361 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: #f0f0f0 !important;
+}
+
+
+#wrapper{
+	margin: 0 auto;
+	position: relative;
+	max-width:1284px;
+	width:100%;
+	background-color: #fff;
+}
+
+#wrapper_sign{
+    margin: 0 auto;
+    position: relative;
+    width: 1000px;
+    background-color: #fff;
+
+
+
+}
+
+#table{
+	width: 100%;
+	font-size: 14px;
+}
+
+/*footer {
+	background-color: hsl(291,5%,29%);
+	color: ivory;
+	text-align: center;
+	font-size: 0.8em;
+	font-variant:small-caps;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}*/
+
+/*Tables*/
+.stats {
+				width:85%;
+	font-size: 13px;
+	border-collapse: collapse;
+	table-layout: auto;
+
+white-space: nowrap;
+	text-align: center;
+
+}
+
+
+
+.awards {
+
+	font-size: 15px;
+	border-collapse: collapse;
+	table-layout: auto;
+
+white-space: nowrap;
+	padding:0 auto;
+	text-align: center;
+}
+
+.awardsTable{
+
+	margin-bottom: 20px;
+width: 90%;
+position: relative;
+right: 20px;
+}
+
+.awards > td{
+	width:150px;
+}
+
+.stats >th tr{
+	padding:3px;
+}
+
+.standardTable{
+	width:90%;
+	font-size: 14px;
+	border-collapse: collapse;
+	table-layout: auto;
+
+white-space: nowrap;
+	margin-top:40px;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+
+table td{
+    padding:5px;
+}
+
+table th{
+    padding:5px;
+}
+
+.advancedTable{
+	position: relative;
+	left: 30px;
+}
+
+#leaders{
+
+	font-size: 15px;
+	border-collapse: collapse;
+	table-layout: auto;
+	line-height: normal;
+white-space: nowrap;
+	text-align: center !important;
+	vertical-align: middle !important;
+margin: 0 auto;
+}
+
+#leaders a{
+	color:black;
+}
+
+#leaders a:hover{
+	color:white;
+}
+
+.table_lead{
+	padding:10px;
+}
+
+/*End Tables*/
+
+.player-pageImg{
+	position: relative;
+	left: 30px;
+}
+
+.player_name{
+	position: relative;
+	right: 20px;
+}
+
+.chart{
+	position: relative;
+	left: 30px;
+
+}
+
+.chart_text{
+    font-family: BroadwayD;
+    font-style: normal;
+    font-weight: 400;
+    border-bottom-width: medium;
+    border-bottom-style: solid;
+    width: 200px;
+
+}
+
+.subMenu{
+    position: relative;
+    left:30px;
+	top:20px;
+    border-width: medium;
+    background-color: #e8f4f6;
+    width: 800px;
+    color: black;
+    height: 70px;
+    text-align: center;
+    display: block;
+    font-family: philosopher;
+    margin-left: 0px;
+}
+
+.horizontal-list li{
+	list-style: none;
+	vertical-align: middle;
+	display: inline-block;
+
+	position: relative;
+	top: 25px;
+}
+
+#stats_nav_type_batting li, #stats_nav_type_fielding li, #stats_nav_type_visuals li {
+    display: inline-block;
+    margin: 0 0.95em;
+    vertical-align: middle;
+
+}
+
+button{
+	background-color: transparent;
+cursor: pointer;
+	border: none;
+text-transform: capitalize;
+
+
+}
+
+button.active{
+	background-color: #e3e3e3;
+	font-weight: normal;
+	color: black;
+}
+
+button:hover{
+	background-color: #f88fe6;
+
+}
+th, td {
+
+  padding: 3px;
+border: 1px solid #ddd;
+			}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color:	#0bd3d3;
+  color: white;
+
+
+	padding-left: 5px;
+}
+
+
+tfoot{
+				background-color: 	#0bd3d3;
+  color: white;
+			}
+			tr:hover{
+				background-color: 	#f890e7;
+				color:	white;
+			}
+
+
+.name{
+	position: relative;
+
+
+}
+.header{
+	text-align: center;
+}
+
+.footer {
+	background-color: #0bd3d3 ;
+	color: ivory;
+	text-align: center;
+	font-size: 18px;
+	font-variant:small-caps;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+  /* bottom:0;*/
+   width:100%;
+	clear: both;
+	margin: 0 auto;
+
+}
+
+#leader_name{
+	margin-bottom: 10px;
+}
+
+#leader_name > h1{
+	text-align: center;
+	font-family: bebas;
+	    font-family: BroadwayD;
+    letter-spacing: 2px;
+
+}
+
+#leaders tr{
+	display: none;
+
+}
+
+
+
+#after{
+    padding: 5px;
+    font-size: 18px;
+    border: medium inset black;
+    text-align: center;
+    text-indent: 10px;
+    text-decoration: underline;
+	font-family: bebas;
+	background-color:#0bd3d3;
+	width: 60%;
+margin: auto;
+}
+
+#after a{
+    color:white;
+}
+
+#header > th{
+
+  position: sticky;
+  top: 0px;
+
+}
+
+#header{
+	display: table-row !important;
+	opacity: 1 !important;
+}
+
+.player_name{
+	font-size: 30px;
+	font-weight: 400;
+	font-family: bebas;
+	margin-top: 15px;
+	width:25%;
+	border:inset 1px black;
+	text-align: center;
+	background-color: #0bd3d3;
+	color: white;
+}
+
+.player_info{
+	font-size:20px;
+	font-weight: 400;
+	font-family: bebas;
+}
+
+#stats_nav_type_fielding{
+
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+#playerDrop{
+	padding:10px;
+}
+tr.header th {
+    text-align: center;
+}
+
+tr#header th {
+    text-align: center;
+}
+
+table.stats th {
+    text-align: center!important;
+}
+
+table#leaders td {
+    padding: 5px !important;
+}
+
+#hall {
+    font-size: 15px;
+    border-collapse: collapse;
+    table-layout: auto;
+    line-height: normal;
+    white-space: nowrap;
+    text-align: center !important;
+    vertical-align: middle !important;
+    margin: auto;
+}

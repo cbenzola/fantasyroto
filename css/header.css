@@ -1,0 +1,265 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*@font-face {
+   font-family: BroadwayD;
+   src: url(BroadwayD.otf);
+}
+
+* {
+   font-family: BroadwayD;
+}*/
+
+#logo{
+		margin: 0 auto !important;
+	}
+
+	.header-container{
+		position: sticky;
+		top:0px;
+		left: 0px;
+		right:0px;
+		z-index: 10000000;
+		font-family: BroadwayD;
+		letter-spacing:2px;
+
+	}
+		.header-container ul li a{
+		    color:white !important;
+		}
+		.navbar.navbar-inverse a {
+    color: white;
+}
+
+.navbar.navbar-inverse a:hover {
+    color: #f88fe6 !important;
+}
+
+.navbar-inverse {
+    background-color: #0bd3d3 !important;
+    border-color: #ffff !important;
+}
+
+	header{
+		max-width: 1400px;
+		margin: auto;
+
+	}
+
+header.top-header{
+
+
+		display: flex;
+		width: 100%;
+	height:90px;
+		margin-bottom: 0px;
+		z-index: 1000001;
+		position: relative;
+
+	}
+
+	.top-header::after{
+		display: flex;
+	}
+
+	header.leftLogo{
+		-webkit-box-flex:1;
+		-ms-flex: 1 0 247px;
+		flex: 1 0 247px;
+		display: inline-block;
+
+		float: left;
+	}
+
+
+
+	header.top-header div.leftLogo-img{
+		background-position: -20px;
+		background-size: 350px;
+		background-image: url("image/logo.png");
+			background-repeat: no-repeat;
+		height: 200px;
+		float: left;
+	}
+
+	header.top-header div.rightLogo-img{
+		height: 200px;
+		background-size: 350px;
+		background-repeat: no-repeat;
+		float:left;
+	}
+
+	#rightLogo {
+    float: right;
+    position: relative;
+    right: 50px;
+    margin-top: 25px;
+}
+
+
+	/* Searchbar */
+#searchbar{
+
+	position: relative;
+	width: 200px;
+     padding: 8px 10px 9px 5px !important;
+      height: 35px;
+      border: 1px solid grey;
+      box-sizing: border-box;
+      outline: none;
+	margin-top:5px;
+	border-radius: 10px;
+
+}
+
+
+#search_button {
+  float: right;
+  padding:6px;
+  margin-top: 0px;
+  margin-right: 12px;
+ background: #14d2d2;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+	position: relative;
+	left:10px;
+	top:5px;
+
+}
+
+	#search_button:hover {
+	    color:#f88fe6;
+	}
+
+
+#rightLogo > input[type="text"] {
+    width: 200px;
+     padding: 8px 10px 9px 35px;
+      height: 35px;
+      border: 1px solid grey;
+      box-sizing: border-box;
+      outline: none;
+
+
+}
+
+
+
+	/*#btn {
+background: none;
+    border: 1px solid #dbdbdb;
+
+  	cursor: pointer;
+    color: #373A3C;
+    font-family: 'Aaux-Next-Regular';
+    font-size: 1rem;
+
+    width: 65px;
+    height: 40px;
+
+
+}
+	#btn:hover{
+		background-color: red;
+	}*/
+
+.rightLogo > span {
+			position: absolute;
+			left: 0;
+			top: 0;
+			color: #333;
+			height: 100%;
+			border-right: 1px solid grey;
+			text-align: center;
+			width: 30px;
+
+}
+
+i{
+	padding-top: 10px;
+}
+
+#wrapper{
+	background-color: white;
+	max-width:1284px;
+	width:100%;
+	margin:0 auto;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+#position-search{
+	display: none;
+}
+#team-search{
+	display: none;
+}
+
+.player{
+        margin-left:0px !important;
+    }
+
+    @media only screen and (max-width: 600px) {
+    .player{
+        margin-left:0px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {.player{
+        margin-left:0px;
+    }}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {.player{
+        margin-left:0px;
+    }}
+
+
+		.search-box{
+
+				position: relative;
+				display: inline-block;
+				font-size: 14px;
+		}
+		.search-box input[type="text"]{
+				height: 32px;
+				padding: 5px 10px;
+				border: 1px solid #CCCCCC;
+				font-size: 14px;
+		}
+		.result{
+				position: absolute;
+				z-index: 999;
+				top: 100%;
+				left: 0;
+				background-color: #f2f2f2;
+		}
+		.search-box input[type="text"], .result{
+				width: 100%;
+				box-sizing: border-box;
+		}
+		/* Formatting result items */
+		.result p{
+				margin: 0;
+				padding: 7px 10px;
+				border: 1px solid #CCCCCC;
+				border-top: none;
+				cursor: pointer;
+		}
+		.result p:hover{
+				background: #f2f2f2;
+		}
+		.result a{
+				color:black;
+		}
+		.result a:hover{
+				color: blue;
+		}

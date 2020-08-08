@@ -1,0 +1,309 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*@font-face {
+   font-family: BroadwayD;
+   src: url(BroadwayD.otf);
+}
+
+* {
+   font-family: BroadwayD;
+}*/
+
+@font-face {
+	font-family: Champagne;
+	src: url(cac_champagne.woff) format('woff'),
+	     url(cac_champagne.ttf) format('ttf');
+}
+
+@font-face {
+	font-family: Dobkin;
+	src: url(DobkinPlain.woff) format('woff'),
+	     url(DobkinPlain.ttf) format('ttf');
+}
+
+body{
+	background-color: #f0f0f0 !important;
+}
+
+
+
+/* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+/*@media screen and (max-width: 600px) {
+  #rightcol a, #rightcol input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  #rightcol input[type=text] {
+    border: 1px solid #ccc;
+  }
+}*/
+
+/* End Column Styles */
+
+.stats {
+				border-collapse: collapse;
+  width: 70%;
+				border: 1px solid #ddd;
+
+}
+
+th, td {
+  text-align: left;
+  padding: 5px;
+border: 1px solid #ddd;
+			}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color:#41B6E6 !important;
+  color: black;
+}
+			tfoot{
+				background-color: #41B6E6 !important;
+  color: white;
+			}
+			tr:hover{
+				background-color: #DB3EB1 !important ;
+				color:white;
+			}
+
+
+.name{
+	position: relative;
+
+
+}
+
+
+#corner{
+
+}
+
+#homeSide{
+    background-color: #fff;
+    color: black !important;
+    border: medium solid;
+	position: relative;
+	top: 20px;
+}
+#sideHeader{
+	background-color: transparent;
+}
+
+/* CSS For Registrarion */
+
+#sign{
+		margin: 0 auto;
+		max-width:400px;
+	}
+
+	.form-group{
+		padding-top:40px;
+
+	}
+
+	#register{
+
+		font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+
+
+	padding-top: 10px;
+	}
+
+
+#form{
+	margin-top:20px;
+}
+
+.reg_form {
+
+	background: #f1f1f1;
+	width: 400px;
+	max-width: 100%;
+	box-sizing: border-box;
+	padding: 25px;
+	margin: 8% auto 0;
+	margin-top:10px !important;
+	margin-bottom: 15px !important;
+	position: relative;
+	z-index: 1;
+	border-top: 5px solid black;
+
+
+}
+/** html .reg_form {
+padding-top:45px;
+}
+*+html .reg_form {
+padding-top:45px;
+}*/
+.reg_form > h3 {
+position:absolute;
+top:-11px;
+left:35px;
+padding:0 8px;
+background:#fff;
+margin:0;
+border:1px solid #333;
+}
+.input_field > [type="text"]{
+		 width: 100%;
+      padding: 8px 10px 9px 35px;
+      height: 35px;
+      border: 1px solid grey;
+      box-sizing: border-box;
+      outline: none;
+	}
+
+.payment_field > [type="text"]{
+	 width: 110px;
+      padding: 8px 10px 9px 35px;
+      height: 35px;
+      border: 1px solid grey;
+      box-sizing: border-box;
+      outline: none;
+}
+
+.payment_field{
+	position: relative;
+		margin-bottom: 20px;
+}
+
+input[type="email"]{
+		 width: 100%;
+      padding: 8px 10px 9px 35px;
+      height: 35px;
+      border: 1px solid grey;
+      box-sizing: border-box;
+      outline: none;
+	}
+input[type="password"]{
+		 width: 100%;
+      padding: 8px 10px 9px 35px;
+      height: 35px;
+      border: 1px solid grey;
+      box-sizing: border-box;
+      outline: none;
+	}
+
+.button{
+		background: #14d2d2;
+		height: 35px;
+		margin-right: 10px;
+		width: 100%;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		color: #fff;
+		font-size: 1.1em;
+		margin-bottom: 10px;
+	}
+
+
+
+/*.reg_form > input.submit {
+width:100px;
+cursor:pointer;
+margin:40px 0 0;
+}*/
+
+/*.reg_form > input[type=text]:focus{
+	width:200px;
+}
+
+.reg_form > input[type=password]:focus{
+	width:200px;
+}*/
+
+
+/*.reg_form > label {
+    right: 10px;
+    position: relative;
+    display: block;
+    margin: 30px 0 4px;
+}
+
+.reg_form > label.error {
+float:left;
+margin:0;
+color:red;
+}*/
+
+.input_field{
+	position: relative;
+		margin-bottom: 20px;
+}
+.input_field > span {
+			position: absolute;
+			left: 0;
+			top: 0;
+			color: #333;
+			height: 100%;
+			border-right: 1px solid grey;
+			text-align: center;
+			width: 30px;
+
+}
+
+i{
+	padding-top: 10px;
+}
+
+.form_container{
+
+}
+
+.title_container{
+		text-align: center;
+		padding-bottom: 10px;
+}
+
+#logo2{
+	margin-left: 490px;
+	width:500px;
+}
+
+@media only screen and (max-width : 480px) {
+	#logo2{
+		margin-left: 30px;
+		width:100%;
+	}
+}
+
+@-moz-document url-prefix() {
+    #logo2 {
+       margin-left:490px;
+    }
+}
+.label_card {
+  margin-bottom: 10px;
+  display: block;
+}
+.label_card2{
+	margin-bottom: 10px;
+	display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 36px;
+}
+
+.col-50{
+	padding:0 12px;
+
+}
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
